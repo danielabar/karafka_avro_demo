@@ -138,6 +138,7 @@ Add `binding.b` or `debugger` to any Ruby file. See [ruby/debug](https://github.
 
 ## TODO
 
+- For local file schema, does it really need schema name in message_type header? Since schema gets embedded in the message itself, maybe that's enough for decode method without also specifying schema?
 - Explain how it works, pointers to relevant code
 - RSpec tests
 - Why is `docker-compose rm -f` required before `docker-compose up` when containers already exist?
